@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: teal;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+     align-items: center;
+}
+li {
+    margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+  
+li:hover{
+    background-color: blue;
+    height: 6vh;
+    width: 80px;
+}
+.body{
+    width: 100%;
+    background-color: aqua;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 150px;
+    font-family: sans-serif;
+}
+.body_card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.card{
+    border: solid 3px ;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+img{
+    height:70 vh;
+    width: 100%;
+}
+
+ 
